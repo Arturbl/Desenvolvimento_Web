@@ -1,0 +1,18 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(41,78,94,0.99);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    align-items: center;
+}
+
+#main {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+}

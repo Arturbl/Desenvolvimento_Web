@@ -1,0 +1,99 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header  {
+    padding: 0 0 0 10px;
+    font-family: Segoe UI, sans-serif;
+}
+
+#indexSection {
+    margin-top: 45px;
+    width: 100%;
+    text-align: center;
+}
+
+#indexSection ul li {
+    background-color: gainsboro;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+#indexSection ul li a{
+    margin-top: 100px;
+    text-decoration: none;
+}
+
+header #title a {
+    text-decoration: none;
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+}
+
+
+section details {
+    margin-left: 20px;
+}
+
+section details .img{
+    width: 100%;
+    text-align: center;
+}
+
+ol li::marker {
+    color: red;
+}
+
+section details summary {
+    margin-top: 10px;
+}
+
+
+section .dicasDetails {
+    margin-top: 20px;
+
+}
+
+section .dicasDetails p {
+    margin-left: 20px;
+}
+
+#autorSection {
+    width: 100%;
+    text-align: center;
+}
+
+.card {
+    width: 40%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gainsboro;
+    padding: 15px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    background-color: rgba(41,78,94,0.99);
+}
